@@ -124,3 +124,7 @@ buildNumber.properties
 ##### IntelliJ
 
 .idea/
+
+##### AoC
+
+src/main/resources/*/*.txt
