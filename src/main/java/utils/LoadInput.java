@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LoadInput {
 
-  private static String load(String path) throws IOException {
+  public static String load(String path) throws IOException {
     try (var in = LoadInput.class.getResourceAsStream(path)) {
       if (in == null) throw new IOException();
       return new String(in.readAllBytes(), StandardCharsets.UTF_8);
